@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Troy</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <div class="main-container">
+    <!-------------------- header start here------------------>
+    <div class="header-shape py-3">
+      <header>
+        <div class="container-fluid px-5">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#about-us">About</a>
+                    </li>
+                  </ul>
+                  <div class="bell-icon pe-3">
+                    <i class="bi bi-bell text-white"></i>
+                  </div>
+                  <div class="login-btn-s-up">
+                      <a href="login.html" class="text-white">Login</a> <span class="text-white">/</span> <a href="sign-up.html" class="text-white">Sign Up</a>
+                  </div>
+                </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-------------------- header end here------------------>
+
+    <!-------------------- banner start here------------------>
+    <div class="banner-sec">
+      <div class="container-fluid px-5">
+        <div class="row mb-5 pb-5">
+          <div class="col-md-8 ms-auto text-end">
+            <div class="banner-heading">
+              <h1 class="fs-50 fw-600">Get There with Troy – <br>
+                Speed, Safety, and Comfort</h1>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-1">
+              <div class="social-icon">
+                <div class="tik mb-2">
+                  <img src="images/tik-tok.png">
+                </div>
+                <div class="insta">
+                  <img src="images/insta.png">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="we-are-text">
+                <h5>We Are</h5>
+                <P>Join the Troy community today for hassle-free taxi rides—track your driver, pay via Stripe, and enjoy
+                  a premium ride every time.
+                  Come usher in the new era of taxi services with our innovative app. It’s not a taxi, it’s Troy.</P>
+                <div class="learn-btn">
+                  <button class="btn btn-learn ps-0 fw-500" type="submit">Learn More <span class="ps-3"><img
+                        src="images/learn-btn.png"></span></button>
+                </div>
+                <div class="book-ride-btn mt-4">
+                  <button class="btn btn-book  fw-500 bg-black text-white px-5" type="submit">Book Ride</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="car-img text-end position-absolute top-20">
+                <img src="images/car.png" alt="car" class=" mw-100">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-------------------- cal-sec start here------------------>
+      <section>
+        <div class="calculate-sec mt-5 pt-5">
+          <div class="container-fluid px-5">
+            <div class="cal-heading">
+              <h2 class="fw-600">Calculate your Fare</h2>
+            </div>
+            <div class="bg-map mt-3">
+              <div class="row py-4 px-5 align-items-center">
+                <div class="col-md-7 col-12">
+                  <div class="left-map h-100">
+                    <img src="images/left-map.png" class="w-100">
+                  </div>
+                </div>
+                <div class="col-md-5 col-12">
+                  <div class="book-your-ride p-4">
+                    <div class="b-heading">
+                      <h5 class="text-white mb-3">Book Your Ride</h5>
+                      <form>
+                        <div class="form">
+                          <div class="pick-up-input mb-3">
+                            <label for="location" class="form-label text-white mb-0">Pick Up Location</label>
+                            <div class="input-group flex-nowrap">
+                              <input type="text" class="form-control bg-trans border-end-0 rounded-15"
+                                placeholder="Sydney NSW, Australia" aria-label="Username"
+                                aria-describedby="addon-wrapping">
+                              <span class="input-group-text bg-trans border-start-0 rounded-15" id="addon-wrapping"><img
+                                  src="images/location.png"></span>
+                            </div>
+                          </div>
+                          <div class="date-input d-flex gap-3 mb-3">
+                            <div class="date w-75">
+                              <label for="date" class="form-label text-white mb-0">Date & time</label>
+                              <div class="d-input" aria-label="date"
+                              aria-describedby="addon-wrapping">
+                                <input type="date" class="form-control bg-trans rounded-15"
+                                  placeholder="Sydney NSW, Australia" aria-label="date"
+                                  aria-describedby="addon-wrapping">
+                                <div class="d-icon">
+                                  <img src="images/date (1).png">
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="number w-25">
+                              <label for="number" class="form-label text-white mb-0">Date & time</label>
+                              <div class="d-input">
+                                <input type="number" class="form-control bg-trans rounded-15" placeholder="3"
+                                  aria-label="date" aria-describedby="addon-wrapping">
+                                <div class="d-icon">
+                                  <img src="images/passenger.png">
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                          <div class="pick-up-input">
+                            <label for="location" class="form-label text-white mb-0">Drop Off Location</label>
+                            <div class="input-group flex-nowrap">
+                              <input type="text" class="form-control bg-trans border-end-0 rounded-15"
+                                placeholder="Sydney NSW, Australia" aria-label="Username"
+                                aria-describedby="addon-wrapping">
+                              <span class="input-group-text bg-trans border-start-0 rounded-15" id="addon-wrapping"><img
+                                  src="images/drop.png"></span>
+                            </div>
+                          </div>
+                          <div class="cal-fare-btn mt-4">
+                            <button class="btn btn-book w-100 py-3  fw-500 bg-black text-white px-5 rounded-15"
+                              type="submit">Calculate Fare</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------------- cal-sec end here------------------>
+    </div>
+    <!-------------------- banner end here------------------>
+    <main>
+      <!-------------------- about-sec start here------------------>
+      <section id="about-us">
+        <div class="about-us-sec mt-3">
+          <div class="container-fluid px-5">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="about-heading">
+                  <h2 class="fw-600">About Us</h2>
+                </div>
+              </div>
+              <div class="col-md-4 pe-0">
+                <div class="high-time p-4 h-100">
+                  <h6>1 /</h6>
+                  <p class="mb-5 pb-5">Time efficiency focuses on minimizing the time users spend on the platform or
+                    during the ride itself, while ensuring smooth, timely service delivery.</p>
+                    <div class="tp-sapce mt-5 pt-5">
+                      <h2 class="h-img mt-5 pt-5">High <span class="ps-2"><img src="images/circle-arrow.png"></span><br>
+                        Time Efficiency</h2>
+                    </div>
+                 
+                </div>
+              </div>
+              <div class="col-md-8 pe-0">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="row ">
+                      <div class="col-md-7">
+                        <div class="real-text-box d-flex ">
+                          <div class="real-time-box p-4 w-75">
+                            <h6>2 /</h6>
+                            <div class="real-i-text mt-5 pt-5">
+                              <span class="width-50"><img src="images/circle-arrow.png"></span>
+                              <h5 class="h-img fw-400"> Real time update</h5>
+                            </div>
+
+                          </div>
+                          <div class="real-right-img bg-black rounded-15 px-3 pt-5 pb-0">
+                            <img src="images/real-img.png" class="h-100">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-5 ps-0">
+                        <div class="Availability high-time  p-4 h-100">
+                          <h6>3 /</h6>
+                          <p class="fs-14">Flexible payment options ensure that users have multiple methods to pay
+                            for their rides, providing convenience and
+                            accommodating
+                            different user
+                            preferences.</p>
+                            <div class="crcl-arrow text-end">
+                              <span class="width-50 text-end"><img src="images/circle-arrow.png"></span>
+                            </div>
+                            <h5 class="h-mar fw-400 mb-0">  24/7 Availability</h5>
+                           
+                        </div>
+                      </div>
+                      <div class="row mt-2 pt-1 pe-0">
+                        <div class="col-md-5 ">
+                          <div class="Availability high-time  p-4 h-100">
+                            <h6>4 /</h6>
+                            <p class="fs-14">Offering 24/7 availability means that users can access the platform and book rides at any time, providing a sense of reliability and convenience.</p>
+                              <div class="crcl-arrow pt-5 mt-2">
+                                <h5 class="h-mar fw-400 mb-0">  24/7 Availability<span class="ps-1 width-50 text-end"><img src="images/circle-arrow.png"></span></h5>
+                              </div>
+                              
+                             
+                          </div>
+                        </div>
+                        <div class="col-md-7 px-0">
+                          <div class="real-text-box w-100 h-100">
+                            <div class="real-time-box p-4">
+                              <div class="wifi mb-2">
+                                <img src="images/Union.png">
+                              </div>
+                              <p>Flexible payment options ensure that users have multiple methods to pay for their rides, providing convenience and accommodating different user preferences.</p>
+                              <div class="real-i-text mt-2">
+                                <span class="width-50"><img src="images/circle-arrow.png"></span>
+                                <h5 class="h-img fw-400 mb-0"> Flexible Payments</h5>
+                              </div>
+  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div class="commute-sec mt-5">
+              <div class="container-fluid pe-5">
+                <div class="row">
+                  <div class="col-md-6 ps-0">
+                    <div class="w-car">
+                      <img src="images/w-car.png" alt="w-car" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-md-6 ps-0">
+                    <div class="Commute-text text-end">
+                      <h2 class="fs-40 fw-600">Revolutionizing<br> Commute for people</h2>
+                      <p>Join the Troy community today for hassle-free taxi rides—track your driver, pay via Stripe, and enjoy a premium ride every time.
+                        Come usher in the new era of taxi services with our innovative app. It’s not a taxi, it’s Troy.</p>
+                    </div>
+                    <div class="plus-text text-end mt-4">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="dummy-text text-end">
+                            <h2>452 +</h2>
+                            <p>loreum ipsum loreum </p>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="dummy-text">
+                            <h2>552 +</h2>
+                            <p>loreum ipsum </p>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="dummy-text  text-end">
+                            <h2>52 +</h2>
+                            <p>loreum ipsum
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+      <!-------------------- about-sec end here------------------>
+
+     <!-------------------- our-clients-sec start here------------------>
+    <section>
+      <div class="our-clients-sec mb-5">
+        <div class="container-fluid px-5">
+          <div class="row">
+            <div class="clients-heading mb-5">
+              <h2 class="fs-40 fw-600">What Our Clients Say About Us</h2>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide">
+
+              <div class="carousel-indicators mb-4">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="pr-next-btn text-end">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex gap-5">
+                    <div class="slide-box-1 text-center p-5 shadow">
+                      <div class="avtar-img">
+                        <img src="images/avtar.jpg" class="b-radius">
+                      </div>
+                        <h5 class="mt-2">Hannah Schmitt</h5>
+                        <p>Lead designer</p>
+                        <div class="quote-img">
+                          <img src="images/quote-line.png">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim </p>
+                    </div>
+                    <div class="slide-box-1 text-center p-5  shadow">
+                      <div class="avtar-img">
+                        <img src="images/avtar.jpg" class="b-radius">
+                      </div>
+                        <h5 class="mt-2">Hannah Schmitt</h5>
+                        <p>Lead designer</p>
+                        <div class="quote-img">
+                          <img src="images/quote-line.png">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim </p>
+                    </div>
+                    <div class="slide-box-1 text-center p-5  shadow">
+                      <div class="avtar-img">
+                        <img src="images/avtar.jpg" class="b-radius">
+                      </div>
+                        <h5 class="mt-2">Hannah Schmitt</h5>
+                        <p>Lead designer</p>
+                        <div class="quote-img">
+                          <img src="images/quote-line.png">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim </p>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex gap-5">
+                    <div class="slide-box-1 text-center p-5 shadow">
+                      <div class="avtar-img">
+                        <img src="images/avtar.jpg" class="b-radius">
+                      </div>
+                        <h5 class="mt-2">Hannah Schmitt</h5>
+                        <p>Lead designer</p>
+                        <div class="quote-img">
+                          <img src="images/quote-line.png">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim </p>
+                    </div>
+                    <div class="slide-box-1 text-center p-5  shadow">
+                      <div class="avtar-img">
+                        <img src="images/avtar.jpg" class="b-radius">
+                      </div>
+                        <h5 class="mt-2">Hannah Schmitt</h5>
+                        <p>Lead designer</p>
+                        <div class="quote-img">
+                          <img src="images/quote-line.png">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim </p>
+                    </div>
+                    <div class="slide-box-1 text-center p-5  shadow">
+                      <div class="avtar-img">
+                        <img src="images/avtar.jpg" class="b-radius">
+                      </div>
+                        <h5 class="mt-2">Hannah Schmitt</h5>
+                        <p>Lead designer</p>
+                        <div class="quote-img">
+                          <img src="images/quote-line.png">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex gap-5">
+                    <div class="slide-box-1 text-center p-5 shadow">
+                      <div class="avtar-img">
+                        <img src="images/avtar.jpg" class="b-radius">
+                      </div>
+                        <h5 class="mt-2">Hannah Schmitt</h5>
+                        <p>Lead designer</p>
+                        <div class="quote-img">
+                          <img src="images/quote-line.png">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim </p>
+                    </div>
+                    <div class="slide-box-1 text-center p-5  shadow">
+                      <div class="avtar-img">
+                        <img src="images/avtar.jpg" class="b-radius">
+                      </div>
+                        <h5 class="mt-2">Hannah Schmitt</h5>
+                        <p>Lead designer</p>
+                        <div class="quote-img">
+                          <img src="images/quote-line.png">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim </p>
+                    </div>
+                    <div class="slide-box-1 text-center p-5  shadow">
+                      <div class="avtar-img">
+                        <img src="images/avtar.jpg" class="b-radius">
+                      </div>
+                        <h5 class="mt-2">Hannah Schmitt</h5>
+                        <p>Lead designer</p>
+                        <div class="quote-img">
+                          <img src="images/quote-line.png">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-------------------- our-clients-sec end here------------------>
+    </main>
+    <footer>
+      <div class="footer bg-black pt-5 ">
+        <div class="container-fluid px-5">
+          <div class="row align-items-center pb-3">
+              <div class="col-md-4">
+                <div class="footer-logo">
+                  <img src="images/footer-logo.png">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="footer-text ">
+                  <p class="light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="footer-link mt-2">
+                    <ul class="ps-0 d-flex gap-4 flex-direction-row">
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#">Terms and Conditions </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Privacy Policy</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" >FAQ</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="copy-right border-top py-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="copy">
+                  <p class="text-white">© 2024 . All rights reserved.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="social-icons d-flex gap-3 justify-content-end">
+                  <div class="fb">
+                    <img src="images/Github.png" alt="Github">
+                  </div>
+                  <div class="fb">
+                    <img src="images/LinkedIn.png" alt="LinkedIn">
+                  </div>
+                  <div class="fb">
+                    <img src="images/Facebook.png" alt="Facebook">
+                  </div>
+                  <div class="fb">
+                    <img src="images/Twitter.png" alt="Twitter">
+                  </div>
+                  <div class="fb">
+                    <img src="images/Instagram.png" alt="Instagram">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,712 @@
+/* global css start here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+button:hover {
+    background:#FB980F  !important;
+    color: #fff !important;
+}
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../fonts/ClashDisplay-Extralight.woff2') format('woff2'),
+        url('../fonts/ClashDisplay-Extralight.woff') format('woff'),
+        url('../fonts/ClashDisplay-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../fonts/ClashDisplay-Light.woff2') format('woff2'),
+        url('../fonts/ClashDisplay-Light.woff') format('woff'),
+        url('../fonts/ClashDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../fonts/ClashDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/ClashDisplay-Regular.woff') format('woff'),
+        url('../fonts/ClashDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../fonts/ClashDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/ClashDisplay-Medium.woff') format('woff'),
+        url('../fonts/ClashDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+        url('../fonts/ClashDisplay-Semibold.woff') format('woff'),
+        url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../fonts/ClashDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/ClashDisplay-Bold.woff') format('woff'),
+        url('../fonts/ClashDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../fonts/ClashDisplay-Variable.woff2') format('woff2'),
+        url('../fonts/ClashDisplay-Variable.woff') format('woff'),
+        url('../fonts/ClashDisplay-Variable.ttf') format('truetype');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+body {
+    font-family: 'ClashDisplay';
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw {
+    font-weight: 400;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.light-gray {
+    color: #616161;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+/* global css end here */
+
+/* header css start here */
+a.navbar-brand img {
+    width: 300px;
+}
+.header-shape {
+    background: #000;
+}
+
+
+.login-btn-s-up {
+    background: #D9D9D94A;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.bell-icon {
+    position: relative;
+}
+
+.bell-icon:after {
+    content: "";
+    background: red;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 30px;
+    left: 9px;
+    top: 2px;
+}
+
+/* header css end here */
+
+/* banner css start here */
+.banner-sec {
+    background: url("../images/bnr-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.position-absolute.top-20 {
+    top: 10%;
+}
+
+.tik {
+    position: relative;
+}
+
+.tik:before {
+    content: "";
+    background: #3B3937;
+    position: absolute;
+    width: 1px;
+    height: 120px;
+    bottom: 50px;
+    left: 15px;
+}
+
+.insta {
+    position: relative;
+}
+
+.insta:after {
+    content: "";
+    background: #3B3937;
+    position: absolute;
+    width: 1px;
+    height: 120px;
+    top: 50px;
+    left: 16px;
+}
+
+/* banner css end here */
+
+/* cal-sec css start here */
+
+.bg-map {
+    background: url("../images/bg-map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+}
+
+.left-map img {
+    border-radius: 38px;
+    height: 453px;
+}
+
+.bg-trans {
+    background: transparent;
+}
+
+.book-your-ride {
+    background: #FFFFFF33;
+    backdrop-filter: blur(19px);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.d-input {
+    position: relative;
+}
+
+.d-icon {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    z-index: -1;
+}
+
+.d-input input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.bg-input input.form-control::placeholder {
+    color: #fff;
+}
+
+.rounded-15 {
+    border-radius: 15px;
+}
+
+.rounded-10 {
+    border-radius: 10px;
+}
+
+input.form-control {
+    height: 60px;
+}
+
+input[type=date]::-webkit-datetime-edit {
+    color: #fff;
+}
+
+/* cal-sec css end here */
+
+/* about-sec css start here */
+.high-time {
+    background: url("../images/3d.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.real-text-box {
+    background-color: #FFFFFF33;
+    background-image: url("../images/3d.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 15px;
+    backdrop-filter: blur(11px);
+}
+
+.high-time h2.h-img img {
+    width: 50px;
+}
+
+span.width-50 img {
+    width: 50px;
+}
+
+.real-right-img img {
+    width: 150px;
+    object-fit: cover;
+}
+
+/* about-sec css end here */
+
+/* our-clients-sec css start here */
+.avtar-img img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    align-items: center;
+    bottom: 100% !important;
+}
+
+.carousel-indicators button {
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    background: #525252 !important;
+    border: unset !important;
+    vertical-align: middle;
+}
+
+.carousel-indicators button.active {
+    background: #000 !important;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    border: unset !important;
+}
+
+.pr-next-btn button {
+    filter: brightness()invert(1);
+    position: unset !important;
+    display: inline-block;
+    width: 50px;
+}
+
+.pr-next-btn {
+    position: absolute;
+    right: 0;
+    top: -50px
+}
+
+/* our-clients-sec css end here */
+
+
+
+/* login-page css start here */
+.login-form {
+    font-family: 'Poppins';
+}
+
+.login-form h1 {
+    font-family: "Poppins", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.color-96 {
+    color: #969696;
+}
+
+.color-23 {
+    color: #232323;
+}
+
+.orange {
+    color: #FB980F;
+}
+
+.login-form .keep-me .form-check-input[type=checkbox] {
+    border: 2px solid #000;
+}
+
+.login-form {
+    background: #E9E9E942;
+    padding: 40px 80px;
+    border-radius: 38px;
+}
+
+.login-form .pass-input {
+    position: relative;
+}
+
+.login-form .pas-eye-icon {
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+
+.login-form .or-text:after {
+    content: "";
+    background: #D9D9D9;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 160px;
+    height: 1px;
+}
+
+.login-form .or-text:before {
+    content: "";
+    background: #D9D9D9;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 160px;
+    height: 1px;
+}
+
+.login-form .or-text {
+    position: relative;
+}
+
+.email,
+.name {
+    position: relative;
+}
+
+.email input {
+    border: 1.5px solid #000;
+}
+
+label.e-label,
+label.n-label {
+    position: absolute;
+    top: -11px;
+    left: 13px;
+    background: #fff;
+    padding: 0 5px;
+}
+
+/* login-page css end here */
+
+/* otp css start here */
+.otp-input {
+    width: 70px;
+    text-align: center;
+    font-size: 24px;
+    background: #ECECEC;
+}
+
+.verifed-mox {
+    padding-bottom: 40px;
+}
+
+.otp-verified {
+    background: #E9E9E942;
+    backdrop-filter: blur(19px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 0;
+}
+
+/* otp css end here */
+
+/* sign-up css start here */
+.color-9a {
+    color: #9a9a9a;
+}
+
+/* sign-up css end here */
+
+/* request-a-ride page css start here */
+.request-header-shape {
+    background: url("../images/r-shape.png") no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+.wh-car {
+    top: 25px !important;
+}
+
+.request-car-img {
+    position: absolute;
+    left: 50%;
+    top: 75px;
+    transform: translateX(-50%);
+}
+
+.book-bg {
+    background: url("../images/ride-bg.png")no-repeat;
+    background-size: cover;
+    padding: 40px 25px;
+    border-radius: 30px;
+}
+
+input::placeholder {
+    color: #fff !important;
+}
+
+.roy-btn {
+    background: #D9D9D94A;
+    border-radius: 30px !important;
+    border: 1px solid #fff !important;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.roy-btn span img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.border-orange {
+    border-bottom: 1px dashed #FB980F;
+}
+.pri-btn {
+    background: #FFFFFF47;
+}
+.plus-sign sapn {
+    align-items: center;
+    background: #000;
+    font-size: 40px;
+    font-weight: 400;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 50%;
+    color: #FB980F;
+}
+.request-car-img img {
+    width: 250px;
+}
+.select-pay button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.select-pay .dropdown-toggle:before {
+    content: "";
+    position: absolute;
+    right: 15px;
+    background: url("../images/after-arrow.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    top: 45%;
+}
+.select-pay button:after {
+    position: absolute;
+    right: 20px;
+}
+span.strip-bg {
+    background: #000;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.pay-btn {
+    background: #00000061;
+    color: #fff;
+}
+.cash-icon{
+    position: relative;
+}
+
+.dropdown-toggle:after {
+    display: none;
+}
+/* request-a-ride page css end here */
+
+/* accordian css start here */
+.cash-icon:after{
+    display: none;
+}
+button.accordion-button {
+    gap: 20px;
+}
+
+.accordion-item {
+    background: unset;
+    border: unset;
+}
+
+button.accordion-button {
+    background: unset !important;
+    border: 1px solid #fff;
+    border-radius: 14px !important;
+    color: #fff !important;
+}
+.accordion-button::after {
+    filter: brightness()invert(1);
+    right: 15px;
+    position: absolute;
+}
+button.accordion-button {
+    gap: 20px;
+    padding: 10px;
+}
+.accordion-body {
+    color: #fff;
+    font-weight: 300;
+}
+/* request-driver css start here  */
+.hdfc span {
+    background: #fff;
+}
+.a-trip {
+    
+    background: #eeeeee
+}
+.doller-num span {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+span.s-active {
+    background: #FB980F;
+    color: #fff;
+}
+.m-p-btn h6 {
+    color: #3C58BF;
+    font-size: 14px;
+}
+.quantity button.minus, .quantity button.plus {
+    background: #8677C41F;
+    padding: 0px 20px;
+    border-radius: 5px;
+    border: 1px solid #D3D9EC4D;
+    font-weight: 500;
+    font-size: 18px;
+}
+input.input-box {
+    border: unset;
+    text-align: center;
+}
+.rounded-6{
+    border-radius: 6px;
+}
+
+/* add new card css start here */
+.add-card-input input {
+    background: #7A7A7A9E;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+}
+/* @media css start here */
+@media screen and (max-width:768px) {
+    span.navbar-toggler-icon {
+        filter: brightness()invert(1);
+    }
+
+    .login-form {
+        padding: 20px 20px;
+    }
+
+    .login-logo img {
+        width: 200px;
+    }
+
+    .login-content h1 {
+        font-size: 32px;
+    }
+
+    .otp-verified {
+        flex-direction: column;
+        position: unset;
+        transform: unset;
+    }
+
+    .footer-link ul {
+        flex-direction: column;
+    }
+
+    .r-heading h1 {
+        font-size: 36px;
+    }
+
+    a.navbar-brand img {
+        width: 200px;
+    }
+
+    .input-row {
+        flex-direction: column;
+    }
+
+    .bs-heading {
+        flex-direction: column;
+    }
+
+    .request-car-img {
+        top: 100px;
+    }
+
+    .request-car-img img {
+        width: 150px;
+    }
+
+    label.form-label {
+        font-size: 14px;
+    }
+
+    .footer-logo img {
+        width: 100px;
+    }
+}

@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request Ride</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <div class="main-container">
+    <!-------------------- header start here------------------>
+    <div class="request-header-shape   pb-5 pt-2">
+      <div class="wh-car request-car-img">
+        <img src="images/r-car.png"alt="" class="img-fluid">
+      </div>
+      <header>
+        <div class="container-fluid px-lg-5 px-2">
+          <div class="row py-2">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                  </ul>
+                  <div class="bell-icon pe-3">
+                    <i class="bi bi-bell text-white"></i>
+                  </div>
+                  <div class="dropdown">
+
+                    <a class="btn btn-secondary dropdown-toggle roy-btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     <span><img src="images/r-avtart.png"></span> Moni Roy
+                    </a>
+                  
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-------------------- header end here------------------>
+    <main>
+      <div class="request-ride-cotent mb-5 pb-5">
+        <div class="container-fluid px-lg-5 px-2">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="r-heading mt-lg-3 mt-5 mb-5">
+                <h1 class="fs-50 fw-600">Request a ride </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris or<a href="#" class="orange text-decoration-underline"> Book for Someone</a> </p>
+              </div>
+            </div>
+            <div class="bookride-contnet mb-5 pb-5">
+            <div class="row">
+              <div class="col-md-8">
+                  <div class="book-bg h-100">
+                    <div class="book-your-ride h-100 p-4">
+                      <div class="bs-heading mb-lg-0 mb-4 d-flex align-items-center justify-content-between">
+                        <h5 class="text-white">Book Your Ride</h5>
+                        <p class="fw-600 fs-14   text-white">Book For Someone Else!</p>
+                      </div>
+                      <div class="input-row d-flex justify-content-between gap-lg-0 gap-4">
+                        <div class="pick-up-location">
+                        <div class="pick-up-input mb-4">
+                          <label for="location" class="form-label text-white mb-0">Pick Up Location</label>
+                          <div class="input-group flex-nowrap">
+                            <input type="text" class="form-control bg-trans border-end-0 rounded-15"
+                              placeholder="Sydney NSW, Australia" aria-label="Username"
+                              aria-describedby="addon-wrapping">
+                            <span class="input-group-text bg-trans border-start-0 rounded-15" id="addon-wrapping"><img
+                                src="images/location.png"></span>
+                          </div>
+                        </div>
+                        <div class="date-input d-flex gap-3 mb-3">
+                          <div class="date w-75">
+                            <label for="date" class="form-label text-white mb-0">Date & time</label>
+                            <div class="d-input" aria-label="date"
+                            aria-describedby="addon-wrapping">
+                              <input type="date" class="form-control bg-trans rounded-15"
+                                placeholder="Sydney NSW, Australia" aria-label="date"
+                                aria-describedby="addon-wrapping">
+                              <div class="d-icon">
+                                <img src="images/date (1).png">
+                              </div>
+                            </div>
+
+                          </div>
+                          <div class="number w-25">
+                            <label for="number" class="form-label text-white mb-0">Passenger</label>
+                            <div class="d-input">
+                              <input type="number" class="form-control bg-trans rounded-15" placeholder="3"
+                                aria-label="date" aria-describedby="addon-wrapping">
+                              <div class="d-icon">
+                                <img src="images/passenger.png">
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dropp-location">
+                        <div class="pick-up-input">
+                          <label for="location" class="form-label text-white mb-0">Drop Off Location</label>
+                          <div class="input-group flex-nowrap">
+                            <input type="text" class="form-control bg-trans border-end-0 rounded-15"
+                              placeholder="Sydney NSW, Australia" aria-label="Username"
+                              aria-describedby="addon-wrapping">
+                            <span class="input-group-text bg-trans border-start-0 rounded-15" id="addon-wrapping"><img
+                                src="images/drop.png"></span>
+                          </div>
+                        </div>
+                        <div class="bk-rd-fare-btn mt-5">
+                          <button class="btn btn-book w-100 py-3  fw-500 bg-black text-white px-lg-5 rounded-15"
+                            type="submit">Book Ride Now  </button>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="book-ride-map mt-lg-0 mt-4">
+                  <img src="images/b-map.png" alt="map" class="img-fluid h-75">
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer bg-black pt-5 ">
+        <div class="container-fluid px-lg-5 ">
+          <div class="row align-items-center pb-3">
+              <div class="col-md-4">
+                <div class="footer-logo">
+                  <img src="images/footer-logo.png">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="footer-text ">
+                  <p class="light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="footer-link mt-2">
+                    <ul class="ps-0 d-flex gap-4 flex-direction-row">
+                      <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#">Terms and Conditions </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Privacy Policy</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" >FAQ</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="copy-right border-top py-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="copy mb-lg-0 mb-3">
+                  <p class="text-white">© 2024 . All rights reserved.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="social-icons d-flex gap-3 justify-content-lg-end">
+                  <div class="fb">
+                   <a href="#"> <img src="images/Github.png" alt="Github"></a>
+                  </div>
+                  <div class="fb">
+                    <a href="#">  <img src="images/LinkedIn.png" alt="LinkedIn"></a>
+                  </div>
+                  <div class="fb">
+                    <a href="#"><img src="images/Facebook.png" alt="Facebook"></a>
+                  </div>
+                  <div class="fb">
+                    <a href="#"></a> <img src="images/Twitter.png" alt="Twitter"></a>
+                  </div>
+                  <div class="fb">
+                    <a href="#"><img src="images/Instagram.png" alt="Instagram"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

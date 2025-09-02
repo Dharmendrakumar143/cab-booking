@@ -1,0 +1,176 @@
+.error {
+    color: red !important;
+}
+
+
+.custom-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.custom-pagination .pagination-info {
+    color: #6c757d;
+}
+
+.custom-pagination .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-pagination .pagination li {
+    margin: 0 5px;
+}
+
+.custom-pagination .pagination li a,
+.custom-pagination .pagination li span {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #555;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.custom-pagination .pagination li a:hover {
+    background-color: #f0f0f0;
+}
+
+.custom-pagination .pagination li.active span {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: default;
+}
+
+.custom-pagination .pagination li.disabled span {
+    color: #ccc;
+    border-color: #ddd;
+    cursor: not-allowed;
+    background-color: #f9f9f9;
+}
+
+.col-md-9.content-width {
+    padding-left: 0;
+}
+
+/* .form-control:focus{
+    border-color: #000 !important;
+} */
+
+.hidden { display: none; }
+
+
+
+
+/* admin-help-suport css start here */
+
+.fs-clash{
+    font-family: 'ClashDisplay';
+}
+.bg-71{
+    background: #71DC3F1A;
+}
+.color-71{
+    color: #71DC3F;
+}
+.bg-dc{
+    background: #DC813F1A;
+}
+.color-dc{
+    color: #DC813F;
+}
+.admin-help-cnotent-box .custom-table table thead tr th {
+    background: #fff;
+}
+.admin-help-cnotent-box .search-container {
+    position: relative;
+    width: 400px;
+}
+.admin-help-content-box .filters input.form-control {
+    height: unset;
+}
+
+.admin-help-content-box .filters input.form-control::placeholder {
+    color: #000 !important;
+}
+.admin-help-content-box input[type=date]::-webkit-datetime-edit {
+    color: #000;
+}
+.status-btn select {
+    width: max-content;
+}
+
+
+.filters input {
+    width: max-content;
+}
+.search-filter-box input.search-input {
+    height: 40px;
+}
+.dots-box a.dropdown-toggle:after {
+    display: none;
+}
+.name-info p {
+    padding: 8px 0;
+}
+.border-e7{
+    border:1px solid #e7e7e7;
+}
+/* admin-help-suport css end here */
+
+.avtar-cemra img:first-child {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+select#question_type {
+    background: #f6f6f6;
+    padding: 18px;
+    border-radius: 30px;
+    border: 1px solid #dee2e6;
+}
+
+.content-page-form textarea::placeholder {
+    padding-top: 10px;
+}
+.admin-help-content-box ul.dropdown-menu.show {
+    padding: 0;
+}
+
+.proof-img-box img {
+    width: 80%;
+    height: 116px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+img#profile-pics {
+    width: 150px;
+}
+ul#header-notification-list li.border-bottom a.dropdown-item{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.form-check input.form-check-input{
+    padding: 8px;
+}
+@media(max-width:1370px){
+    .t-user span.fw-600{
+        font-size: 20px;
+    }
+}
+@media(max-width:1170px){
+    .t-user span.fw-600{
+        font-size: 18px !important;
+    }
+}

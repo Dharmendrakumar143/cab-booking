@@ -1,0 +1,368 @@
+
+/* driver-page css start here */
+
+.tde-delete-icon a img {
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+}
+.bg-54{
+    background: #5459EA;
+}
+.bg-f6{
+    background:#f6f6f6;
+}
+.pegination-box a.page-link.active {
+    background: #5459ea;
+    border: 1px solid #5459ea;
+    color: #fff;
+}
+.pegination-box a.page-link {
+    color: #000;
+    padding: 2px 10px !important;
+}
+.pegination-box .page-link:focus {
+    box-shadow: unset;
+}
+/* driver-page css end here */
+
+
+/* driver-details css start here */
+.drivers-details .profile-pic {
+    background: #f6f6f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color-83{
+    color: #8388a2;
+}
+.d-comment-box textarea {
+    overflow: hidden;
+    border: unset;
+}
+.ac-bg{
+    background:#3366FF33;
+}
+.cr-bg{
+    background:#FB980F47;
+}
+.cr-color{
+    color: #FB980F;
+}
+.rr-bg{
+    background:#39DE5433;
+}
+.rr-color{
+    color: #39DE54;
+}
+.rc-bg{
+    background:#EF33FF33;
+}
+.rc-color{
+    color: #EF33FF;
+}
+.cc-bg{
+    background:#FF333F33;
+}
+.cc-color{
+    color: #FF333F;
+}
+.color-33{
+    color: #3366FF;
+}
+.accept-ride {
+    width: 185px;
+    max-width: 100%;
+}
+.f7f8-bg{
+    background: #F7F8FA;
+}
+.passenger-pegi a.page-link.active {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+/* driver-details css end here */
+
+/* rides-page css start here */
+
+.tab-nav-menu ul.nav  li button {
+    border-radius: 30px;
+    background: #f7f7f7;
+    padding: 3px 20px;
+    color: #101010;
+    font-weight: 600;
+}
+.tab-nav-menu .nav-pills .nav-link.active {
+    background: #000 !important;
+    color: #FB980F!important;
+}
+.tab-nav-menu ul.nav {
+    gap: 10px;
+}
+.fs-16{
+    font-size: 16px;
+}
+
+/* rides-page css end here */
+
+/* my-trip-page css start here */
+.past-tab-nav-menu .nav-pills .nav-link {
+    background: #f7f7f7;
+    border-radius: 30px;
+    padding: 2px 60px;
+    color: #000;
+    font-weight: 500;
+}
+.past-tab-nav-menu .nav-pills .nav-link.active {
+    padding: 2px 60px;
+    font-weight: 500;
+}
+
+/* my-trip-page css end here */
+/* notification-page css start here */
+.n-img {
+    position: relative;
+    height: max-content;
+}
+.n-img img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    
+}
+.n-img span.n-circle {
+    background: #2FB500;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #efefef;
+}
+/* notification-page css end here */
+
+/* content-management css start here */
+.bg-e6{
+    background: #e6e6e6;
+}
+.content-table .table thead th {
+    background: #e6e6e6;
+    padding: 20px 0px 20px 50px;
+}
+.content-table table.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.content-table .table tr td {
+    padding: 20px 0px 20px 50px;
+}
+.bg-e1{
+    background: #e1e1e1;
+}
+.content-page-form input::placeholder {
+    color: #858585 !important;
+}
+.content-page-form input.form-control {
+    height: 50px;
+}
+
+.content-page-form  option {
+	background-color: white;
+	color: grey;
+}
+
+.content-page-form  select, input, button {
+	background-color: white;
+	border: none;
+	padding: 0.5em 0.8em;
+	border-radius: 4px;
+	color: grey;
+	cursor: pointer;
+	outline-style: none;
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+
+	&:hover {
+		background-color: #EFEFEF;
+		color: black;
+	}
+	
+	&:not(:last-child) {
+		margin-right: 4px;
+	}
+	
+	&[type=color] {
+		width: 1.2em;
+	}
+	
+	&[type=number] {
+		width: 3em;
+	}
+}
+
+.content-page-form  #wysiwyg {
+	border-radius: 8px;
+	width: 100%;
+	max-height: 100%;
+	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	
+	.btns {
+		padding: 0.3em 0.3em;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		border-bottom: 1px solid #EFEFEF;
+		background-color: #f6f6f6;
+		flex-grow: 2;
+        row-gap: 10px;
+        column-gap:10px;
+		
+		.category {
+			display: flex;
+			align-items: center;
+			border-right: 1px solid #EFEFEF;
+			padding: 0 4px;
+		}
+	}
+	
+	#editor {
+		resize: none;
+		background-color: white;
+		outline-style: none;
+		border: none;
+		width: 100%;
+		box-sizing: border-box;
+        padding: 10px 10px 100px 20px;
+		max-height: calc(80vh);
+		overflow: auto;
+		
+		img {
+			max-width: 100%;
+		}
+	}
+}
+/* content-management css end here */
+
+/* payment-histroy css start here */
+
+.payment-histroy input.form-control {
+    height: 40px;
+}
+.color-28{
+    color: #289B4F;
+}
+.color-20{
+    color: #202224;
+}
+.bg-28{
+    background: #289b4f2b;
+}
+.payment-main-content input[type=date]::-webkit-datetime-edit {
+    color: #000;
+}
+.loca-box {
+    position: relative;
+}
+
+.loca-box:after {
+    content: "";
+    position: absolute;
+    border: 1px dashed #eeb901;
+    width: 1px;
+    height: 35px;
+    left: 8px;
+    top: 20px;
+}
+/* payment-histroy css end here */
+
+/*--------- @media css start------- */
+@media screen and (max-width:768px){
+    .total-drivers-box {
+        flex-direction: column;
+    }
+    .rides-info {
+        flex-direction: column;
+    }
+    .accept-ride {
+        width: 100%;
+        max-width: 100%;
+    }
+    .tab-nav-menu ul.nav  li button {
+        padding: 3px 8px;
+    }
+}
+/*--------- @media css end------- */
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
