@@ -53,7 +53,3 @@ It provides a structured booking flow with ride approvals, surge pricing, and mu
 - **Authentication:** Laravel Auth / OTP (email verification)  
 - **Payment Integration:** Stripe   
 - **Notifications:** Email + pusher
-
----
-git clone https://github.com/yourusername/troyrides.git
-cd troyrides
